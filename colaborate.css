@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+    height: 100%;
+    width: 1000px;
+    background-color: rgba(255,112,6,1.00);
+    margin-left: 400px
+}
+.h1 {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+.instructions {
+    font-size: 25px;
+    font-family: 'Duru Sans', sans-serif;
+    padding: 30px;
+}
+#Form div {
+    height: 400px;
+}
+#Form {
+    padding-top: 80px;
+    margin-top: 250px;
+    width: 900px;
+}
+label {
+    font-family: 'Bangers', cursive;
+    font-size: 48px;
+    margin-left: 50px;
+}
+#fname {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#lname {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#em {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#other {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#button {
+    background-color: black;
+    color: white;
+    margin-left: 715px;
+    border-radius: 50px;
+    height: 41px;
+    width: 131px;
+    margin-top: 35px;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: rgba(255,112,7,1.00);
+    color: black;
+}
+#dzhover:hover {
+    background-color: white;
+}
+#myFile {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+body{
+	background-image: url("images/IMG_6155 2.jpg")
+}
