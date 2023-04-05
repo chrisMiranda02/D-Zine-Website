@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Colaborate</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Bangers&family=Duru+Sans&family=Shrikhand&display=swap" rel="stylesheet">
+	<style>
+		.container{
+			height:100%;
+			width: 1000px;
+			background-color: rgba(255,112,6,1.00);
+			margin-left: 400px
+		}
+		.h1{font-size: 36px;
+		text-align: center;
+			color: black;
+			    font-family: 'Bangers', cursive;
+		
+		}
+		.instructions{
+			
+			font-size: 25px;
+			    font-family: 'Duru Sans', sans-serif;
+			padding: 30px;
+
+		}
+	
+		#Form div {
+    height: 400px;
+    }
+#Form {
+    padding-top: 80px;
+    margin-top: 250px;
+	width: 900px;
+	
+}
+label {
+    font-family: 'Bangers', cursive;
+    font-size: 48px;
+    margin-left: 50px;
+}
+#fname {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#lname {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#em {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#other {
+    width: 795px;
+    height: 41px;
+    margin-left: 50px;
+}
+#button {
+    background-color:black;
+    color: white;
+    margin-left: 715px;
+    border-radius: 50px;
+    height: 41px;
+    width: 131px;
+    margin-top: 35px;
+}
+		.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  
+    background-color: black;
+}
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: rgba(255,112,7,1.00);
+    color: black;
+}
+		#dzhover:hover{
+		background-color: white;
+	}
+		#myFile{
+			margin-left: 50px;
+			margin-top: 50px;
+			
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="sidenav"> <a href="index.html">Home</a> <a href="dzines.html" id="dzhover">D Zines</a> <a href="">Colaborte</a><a href="#">About</a> <a href="">CHR$</a> </div>
+
+	<div class="container">
+	<div class="instructions">
+		<h1 class="h1">How to Submit Your Digital Zine to Pages Form:</h1>
+
+If you're a digital zine creator looking to showcase your work to a wider audience, submitting your zine to completing this Form is a great way to get your work out there. Here's how you can submit your digital zine to D Zine in a few simple steps:
+
+<h2 class="h1">Step 1: Prepare Your Digital Zine</h2>
+
+Ensure that your zine is in a digital format that can be easily uploaded to the site. Common file formats for digital zines include PDF, JPG, and PNG.
+Consider optimizing your zine for digital platforms, including font size and image resolution.
+Review your zine to ensure that it's free from any errors or issues that may affect its quality or readability.
+
+		<h3 class="h1">Step 2: Complete the Submission Form</h3>
+
+Fill out the submission form, providing accurate information about yourself and your zine.
+Upload the digital file of your zine to the form.
+Submit the form and wait for confirmation that your submission has been received.
+<h4 class="h1">Step 3: Review and Approval</h4>
+
+Our team will review your submission to ensure that it meets our guidelines and technical requirements.
+If your zine is approved, we will upload it to the D Zine page.
+If there are any issues with your submission, we will contact you to provide feedback or request revisions.
+<h5 class="h1">Step 4: Share Your Zine</h5>
+
+ Once your zine is published on our site, we will provide you with a link to your zine's page.
+  Share the link with your followers and on your social media channels to promote your zine and connect with readers.
+  Interact with other zine creators and readers on the site to expand your network and reach.
+  Submitting your digital zine to D Zine is a great way to get your work seen by a wider audience and connect with other zine creators. By following these simple steps, you can ensure that your submission is successful and that your zine gets the attention it deserves.<br><br> <b>So what are you waiting for?</b><br><b>Submit your digital zine on the form bellow today!</b>
+ 
+		
+		</div>
+		<div class="form">
+		<form id="gbox" action="/action_page.php">
+      <label for="fname">First Name:</label>
+      <br>
+      <input type="text" id="fname" name="fname" value="Type your First Name">
+      <br>
+      <label for="lname" >Last Name:</label>
+      <br>
+      <input type="text" id="lname" name="lname" value="Type your Last Name">
+      <br>
+      <label for="email-se" id="email-se">Email:</label>
+      <br>
+      <input type="text" id="em" name="email-se" value="Type your Email">
+      <br>
+      <label for="Other">Other:</label>
+      <br>
+      <input type="text" id="other" name="other" value="Type your message here">
+      <br>
+			<input type="file" id="myFile" name="filename">
+			<br>
+      <input type="submit" id="button" value="Submit">
+      <br>
+	
+			
+    </form>
+		
+		</div>
+	
+	
+	
+	
+	</div>
+</body>
+</html>
