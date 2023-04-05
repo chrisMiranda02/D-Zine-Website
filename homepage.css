@@ -94,7 +94,7 @@ button:hover {
 		
 	
 	}
-	@media screen and (max-width:736px) {
+	@media screen and (max-width:428px) {
     /* Style the side navigation */
    .sidenav {
     width: 100%;
@@ -106,7 +106,7 @@ button:hover {
   .sidenav a {
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     font-family: 'Bangers', cursive;
     font-size: 25px;
@@ -144,8 +144,8 @@ button:hover {
     height: 10%;
     width: 40%;
     margin-top: 5%;
-    margin-left:22px;
-    font-size: 6vw;
+    margin-left:35px;
+  
   }
 	
 }
