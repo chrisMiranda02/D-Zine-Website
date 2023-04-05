@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexbox Assignment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Bangers&family=Duru+Sans&family=Shrikhand&display=swap" rel="stylesheet">
+<style>
+.ui-menu {
+    width: 200px;
+    background-image: image("image/room.jpg");
+    position: relative;
+    padding: 05%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-widget-header {
+}
+body {
+    margin: 0;
+    font-family: 'Duru Sans', sans-serif;
+}
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+background-color:
+overflow-x: hidden;
+    position: fixed;
+    background-color: black;
+}
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center
+}
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: rgba(255,112,7,1.00);
+    color: black;
+}
+/* Style the content */
+
+.header {
+    background-color: white;
+    height: 120px;
+    text-align: center;
+    margin-left: 160px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+.categoryoneA {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 200px;
+background-color:;
+    height: 300px;
+    padding: 10px;
+    overflow-x: auto;
+}
+	.a1{
+		background-image: url("file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/images/dzb.jpg");
+		font-family: 'Alata', sans-serif;
+		color:white;
+	
+	}
+	
+	.a2{
+background-image: url("images/hearts.jpg");
+		background-size:cover;
+	font-family: 'Shrikhand', cursive;
+color:red;
+		
+		
+		
+	
+	}
+	
+.categoryoneA div {
+    background-color: grey;
+    margin: 5px;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+    text-align:end;
+	width: 300px;
+	height: 230px;
+	
+	
+}
+	
+.categorytwoB {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 200px;
+background-color:;
+    height: 300px;
+    padding: 10px;
+}
+.categorytwoB div {
+    background-color: grey;
+    margin: 5px;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+	width: 300px;
+	height: 230px;
+}
+.category-3C {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 200px;
+background-color:;
+    height: 300px;
+    padding: 10px;
+}
+.category-3C div {
+    background-color: grey;
+    margin: 5px;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+	width: 300px;
+	height: 230px;
+}
+.footer {
+    background-color: black;
+    height: 60px;
+	text-align: center;
+	color: white;
+}
+.a1:hover {
+    background-color: white;
+    color: black;
+	cursor: po
+	
+}
+.a2:hover {
+    background-color: white;
+    color: black;
+}
+.a3:hover {
+    background-color: white;
+    color: black;
+}
+.a4:hover {
+    background-color: white;
+    color: black;
+}
+.b1:hover {
+    background-color: white;
+    color: black;
+}
+.b2:hover {
+    background-color: white;
+    color: black;
+}
+.b3:hover {
+    background-color: white;
+    color: black;
+}
+.b4:hover {
+    background-color: white;
+    color: black;
+}
+.c1:hover {
+    background-color: white;
+    color: black;
+}
+.c2:hover {
+    background-color: white;
+    color: black;
+	cursor: pointer;
+}
+.c3:hover {
+    background-color: white;
+    color: black;
+}
+.c4:hover {
+    background-color: white;
+    color: black;
+}
+.categorytwoB {
+    margin-top: 20px;
+}
+.category-3C {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#menu {
+    background-color: rgba(255,112,6,1.00);
+    border: 20px solid;
+    margin: auto;
+    margin-left: 810px;
+    margin-top: 60px;
+    list-style-type: none;
+    border-color: rgba(255,112,7,1.00);
+}
+.ui-widget-header {
+    background-color: black;
+    color: white;
+}
+.footer {
+    text-align: left;
+    padding: 0px;
+}
+#dzhover:hover {
+    background-color: white;
+}
+#heroan {
+    display: flex;
+    justify-content: center;
+}
+	@media only screen and (max-width: 1024px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+	
+  }
+  
+  .sidenav a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    margin-top: 0;
+    color: white;
+  }
+
+  .sidenav a:hover {
+    background-color: rgba(255,112,7,1.00);
+    color: black;
+  }
+
+  .header {
+    margin-left: 0;
+	  margin-top: 350px
+  }
+
+  .categoryoneA,
+  .categorytwoB,
+  .category-3C {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-left: 0;
+    padding: 20px;
+	  height: 200px;
+	 
+  }
+
+  .categoryoneA div,
+  .categorytwoB div,
+  .category-3C div {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+
+</style>
+</head>
+
+<body>
+<div class="sidenav"> <a href="file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/home.html">Home</a> <a href="file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/dzines.html" id="dzhover">D Zines</a> <a href="file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/contact.html">Colaborte</a><a href="#">About</a> <a href="file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/contact.html">Shop</a> </div>
+<div class="header">
+  <h1 id="heroan">D Zines</h1>
+  <div></div>
+</div>
+<div class="categoryoneA">
+  <div class="a1" >Orange Peel</div>
+  <div  class="a2">RED</div>
+  <div  class="a3"></div>
+  <div  class="a4"></div>
+</div>
+<div class="categorytwoB">
+  <div class="b1"></div>
+  <div class="b2"></div>
+  <div class="b3"></div>
+  <div class="b4"></div>
+</div>
+<div  class="category-3C">
+  <div class="c1">No Prevew Available</div>
+  <div class="c2">No Prevew Available</div>
+  <div class="c3">No Prevew Available</div>
+  <div class="c2">No Prevew Available</div>
+</div>
+<div class="footer"><a href="file:///Macintosh HD/Users/christophermiranda/Documents/flexbox/contact.html">Colaborate</a></div>
+</body>
+</html>
