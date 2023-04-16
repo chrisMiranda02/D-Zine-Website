@@ -72,11 +72,11 @@ label {
 /* Side navigation links */
 .sidenav a {
     color: white;
-    padding: 16px;
+    padding: 50px;
     text-decoration: none;
     display: block;
     font-family: 'Bangers', cursive;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 50px;
     text-align: center;
 }
