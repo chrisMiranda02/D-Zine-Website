@@ -51,6 +51,8 @@ body {
     font-size: 68px;
     font-family: 'Duru Sans', sans-serif;
 	color: black;
+	position: relative;
+	
 }
 .welcome p {
     font-size: 24px;
@@ -208,4 +210,32 @@ padding-top: 100px;
 	height: 500px;
 
 margin: auto;
+}
+h1::before,
+h1::after{
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+h1::before{
+	background: rgba(255,112,6,1.00);
+	animation: typewriter 3s steps(13) forwards;
+}
+@keyframes typewriter{
+	to{ left: 100%;
+	
+	}
+}
+h1::after{
+	width: 0.125em;
+	background: black;
+	animation: typewriter 3s steps(13) forwards, blink 500ms steps(13);
+}
+@keyframes blink{
+	to {
+		background: transparent;
+	}
 }
