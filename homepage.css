@@ -44,7 +44,8 @@ body {
 }
 .welcome {
 
-    margin-top: 200px;
+    margin-top: 270px;
+	margin-left: 298px
 }
 .welcome h1 {
     font-size: 68px;
@@ -52,9 +53,9 @@ body {
 	color: black;
 }
 .welcome p {
-    font-size: 30px;
-    padding-top: 5px;
+    font-size: 24px;
     font-family: 'Duru Sans', sans-serif;
+	margin-left: 15px;
 	
 }
 .welcome button {
